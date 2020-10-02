@@ -19,10 +19,16 @@
 		<repository>
 			<id>Maven-release</id>
 			<url>http://localhost:8081/nexus/content/repositories/Maven-release/</url>
+			<id>nexus</id>
+			<name>jenkinsintegration</name>
+			<url>http://3.14.80.34:8081/repository/jenkinsintegration/</url>
 		</repository>
 		<snapshotRepository>
 			<id>Maven-snapshot</id>
 			<url>http://localhost:8081/nexus/content/repositories/Maven-snapshot/</url>
+			<id>nexus</id>
+			<name>jenkinsintegration</name>
+			<url>http://3.14.80.34:8081/repository/jenkinsintegration/</url>
 		</snapshotRepository>		
   </distributionManagement>
 </project>
