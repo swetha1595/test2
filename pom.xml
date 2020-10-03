@@ -14,4 +14,18 @@
       <scope>test</scope>
     </dependency>
 	</dependencies>
+	
+	 <distributionManagement>
+
+		<repository>
+			<id>Maven-release</id>
+			<url>http://52.14.160.88:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>Maven-snapshot</id>
+			<url>http://52.14.160.88:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>		
+  </distributionManagement>
+	
+	
 </project>
