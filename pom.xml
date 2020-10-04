@@ -21,11 +21,8 @@
 			<id>jenkins-release</id>
 			<url>http://18.223.22.20:8081/repository/jenkins-release/</url>
 		</repository>
-		<snapshotRepository>
-			<id>jenkins-snapshot</id>
-			<url>http://18.223.22.20:8081/repository/jenkins-snapshot/</url>
-		</snapshotRepository>		
-  </distributionManagement>
+				
+        </distributionManagement>
 	
 	
 </project>
