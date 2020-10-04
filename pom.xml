@@ -18,12 +18,12 @@
 	 <distributionManagement>
 
 		<repository>
-			<id>Maven-release</id>
-			<url>http://52.14.160.88:8081/repository/maven-releases/</url>
+			<id>jenkins-release</id>
+			<url>http://18.223.22.20:8081/repository/jenkins-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>Maven-snapshot</id>
-			<url>http://52.14.160.88:8081/repository/maven-snapshots/</url>
+			<id>jenkins-snapshot</id>
+			<url>http://18.223.22.20:8081/repository/jenkins-snapshot/</url>
 		</snapshotRepository>		
   </distributionManagement>
 	
